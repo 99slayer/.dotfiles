@@ -25,5 +25,8 @@
   "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
   "editor.fontFamily": "'RobotoMono Nerd Font','Droid Sans Mono', 'monospace', monospace",
   "editor.guides.indentation": false,
-  "biome.suggestInstallingGlobally": false
+  "biome.suggestInstallingGlobally": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBorderTop": "#fabd2f"
+  }
 }
