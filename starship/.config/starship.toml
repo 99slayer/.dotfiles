@@ -2,7 +2,7 @@
 
 format = """
 [](c1)\
-$username\
+$username[█](fg:c1)$hostname\
 [ ](fg:c1)\
 [](c3)\
 $directory\
@@ -27,7 +27,7 @@ disabled = false
 show_always = true
 
 [hostname]
-format = '[󰍹 $hostname]($style)'
+format = '[$ssh_symbol󰍹 $hostname]($style)'
 style = 'fg:c7 bg:c1'
 ssh_only = false
 
@@ -39,12 +39,14 @@ disabled = false
 disabled = false
 
 [directory]
-format = '[ $path]($style)[$read_only]($read_only_style)'
+format = '[  $path]($style)[$read_only]($read_only_style)'
 style = 'fg:c0 bg:c3'
 truncation_length = 3
 truncation_symbol = '...'
 truncate_to_repo = false
-home_symbol = "  "
+home_symbol = " "
+read_only = '  '
+read_only_style = 'fg:c0 bg:c3'
 
 [directory.substitutions]
 "Documents" = "󰈙 "

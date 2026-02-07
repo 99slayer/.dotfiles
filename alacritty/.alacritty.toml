@@ -8,7 +8,7 @@ startup_mode = "Maximized"
 multiplier = 10
 
 [font]
-size = 13.0
+size = 11.0
 normal = { family = "RobotoMono Nerd Font", style = "Regular" }
 bold = { family = "RobotoMono Nerd Font", style = "Bold" }
 offset = { x = 0, y = 0 }

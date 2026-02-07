@@ -2,6 +2,7 @@
   "telemetry.telemetryLevel": "off",
   "editor.fontSize": 16,
   "editor.formatOnSave": true,
+  "editor.insertSpaces": false,
   "editor.tabSize": 2,
   "editor.formatOnPaste": true,
   "editor.minimap.enabled": false,
@@ -28,5 +29,12 @@
   "biome.suggestInstallingGlobally": false,
   "workbench.colorCustomizations": {
     "tab.activeBorderTop": "#fabd2f"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit"
   }
 }

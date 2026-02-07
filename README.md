@@ -1,15 +1,23 @@
 # .dotfiles
+**Fresh dotfiles setup**
+
 Install `git` and `stow`.
 
-Clone repo in $HOME directory.\
-`git clone git@github.com:99slayer/.dotfiles.git ~/.dotfiles`
+Clone repo in $HOME directory.
+```
+git clone git@github.com:99slayer/.dotfiles.git ~/.dotfiles
+```
 
 Move relevant config files into ~/.dotfiles. Make backups first if you want.\
-Once files are in place run:\
-`stow alacritty bash git starship tmux vscode`
+Once files are in place run: 
+```
+stow <packages>
+```
 
-Create `~/.gitconfig.local` and add user credentials:\
-`touch ~/.gitconfig.local`
+Create `~/.gitconfig.local` and add user credentials:
+```
+touch ~/.gitconfig.local
+```
 ```
 [user]
   name = <github username>
@@ -18,7 +26,17 @@ Create `~/.gitconfig.local` and add user credentials:\
 
 Create `.bash_env` and set up my bash environment variables.
 
-## TODO list
+**Update dotfiles**
+```
+cd ~/.dotfiles
+git pull
+```
+If new files or packages were added they must be restowed.
+```
+stow <packages>
+```
+
+## .dotfiles TODO list
 - Checkout Dotbot.
 - Checkout: https://dotfiles.github.io
 - Find a way to sync extensions.list with installed extensions.
