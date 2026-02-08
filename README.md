@@ -23,7 +23,7 @@ touch ~/.gitconfig.local
   name = <github username>
   email = <github noreply email>
 ```
-
+Rename `.bashrc` to `.bashrc.local` before stowing bash package.\
 Create `.bash_env` and set up my bash environment variables.
 
 **Update dotfiles**
