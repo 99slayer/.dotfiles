@@ -23,5 +23,9 @@
   {
     "key": "alt+w",
     "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "ctrl+shift+escape", // ctrl+shift+` doesn't work on smaller keyboards
+    "command": "workbench.action.createTerminalEditor"
   }
 ]
